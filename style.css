@@ -1,0 +1,33 @@
+/* [Previous CSS remains exactly the same, just add these new styles] */
+
+.error-message {
+    color: #e74c3c;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #fadbd8;
+    border-radius: 4px;
+    display: none;
+}
+
+.success-message {
+    color: #27ae60;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #d5f5e3;
+    border-radius: 4px;
+}
+
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
